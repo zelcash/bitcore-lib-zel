@@ -1,13 +1,13 @@
 {
   "author": {
-    "name": "BitcoinZ Community",
+    "name": "Thw BitcoinZ Community",
     "email": "admin@bitcoinz.ph"
   },
   "browser": {
     "request": "browser-request"
   },
   "bugs": {
-    "url": "https://github.com/renuzit/bitcore-lib-btcz/issues"
+    "url": "https://github.com/bitcoinz-wallets/bitcore-lib-btcz/issues"
   },
   "contributors": [
     {
@@ -123,7 +123,7 @@
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/renuzit/bitcore-lib-btcz.git"
+    "url": "git+https://github.com/bitcoinz-wallets/bitcore-lib-btcz.git"
   },
   "scripts": {
     "build": "gulp",
