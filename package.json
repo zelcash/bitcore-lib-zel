@@ -1,14 +1,13 @@
 {
-  "name": "bitcore-lib",
-  "version": "0.14.0",
-  "description": "A pure and powerful JavaScript Bitcoin library.",
-  "author": "BitPay <dev@bitpay.com>",
-  "main": "index.js",
-  "scripts": {
-    "lint": "gulp lint",
-    "test": "gulp test",
-    "coverage": "gulp coverage",
-    "build": "gulp"
+  "author": {
+    "name": "BitcoinZ Community",
+    "email": "admin@bitcoinz.ph"
+  },
+  "browser": {
+    "request": "browser-request"
+  },
+  "bugs": {
+    "url": "https://github.com/renuzit/bitcore-lib-btcz/issues"
   },
   "contributors": [
     {
@@ -56,6 +55,29 @@
       "email": "luwei.here@gmail.com"
     }
   ],
+  "dependencies": {
+    "bn.js": "=2.0.4",
+    "bs58": "=2.0.0",
+    "buffer-compare": "=1.0.0",
+    "elliptic": "=3.0.3",
+    "inherits": "=2.0.1",
+    "lodash": "=3.10.1"
+  },
+  "description": "A pure and powerful JavaScript Bitcoin library.",
+  "devDependencies": {
+    "bitcore-build": "github:bitpay/bitcore-build",
+    "brfs": "^1.2.0",
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "sinon": "^1.13.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "21cb2359fe7b997a3b7b773eb7d7275ae37d644e",
+    "tarball": "https://registry.npmjs.org/bitcore-lib/-/bitcore-lib-0.14.0.tgz"
+  },
+  "gitHead": "2b5b486ee9626eeb0a57c1ef3603d3d42bf46b2f",
+  "homepage": "https://github.com/bitpay/bitcore-lib#readme",
   "keywords": [
     "bitcoin",
     "transaction",
@@ -72,27 +94,42 @@
     "bip70",
     "multisig"
   ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "braydonf",
+      "email": "courier@braydon.com"
+    },
+    {
+      "name": "gabegattis",
+      "email": "gabegattis@gmail.com"
+    },
+    {
+      "name": "gasteve",
+      "email": "stephen@pairhome.net"
+    },
+    {
+      "name": "kleetus",
+      "email": "laconia@gmail.com"
+    },
+    {
+      "name": "patrickbitpay",
+      "email": "patrick@bitpay.com"
+    }
+  ],
+  "name": "bitcore-lib-btcz",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-lib.git"
+    "url": "git+https://github.com/renuzit/bitcore-lib-btcz.git"
   },
-  "browser": {
-    "request": "browser-request"
+  "scripts": {
+    "build": "gulp",
+    "coverage": "gulp coverage",
+    "lint": "gulp lint",
+    "test": "gulp test"
   },
-  "dependencies": {
-    "bn.js": "=2.0.4",
-    "bs58": "=2.0.0",
-    "buffer-compare": "=1.0.0",
-    "elliptic": "=3.0.3",
-    "inherits": "=2.0.1",
-    "lodash": "=3.10.1"
-  },
-  "devDependencies": {
-    "bitcore-build": "bitpay/bitcore-build",
-    "brfs": "^1.2.0",
-    "chai": "^1.10.0",
-    "gulp": "^3.8.10",
-    "sinon": "^1.13.0"
-  },
-  "license": "MIT"
+  "version": "1.0.0"
 }
