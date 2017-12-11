@@ -129,7 +129,7 @@
     "build": "gulp",
     "coverage": "gulp coverage",
     "lint": "gulp lint",
-    "test": "gulp test"
+    "test": "mocha"
   },
   "version": "1.0.0"
 }
