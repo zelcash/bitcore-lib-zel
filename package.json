@@ -1,14 +1,14 @@
 {
   "description": "A pure and powerful JavaScript Bitcoin library.",
   "author": {
-    "name": "Thw BitcoinZ Community",
-    "email": "admin@bitcoinz.ph"
+    "name": "Zelcash Foundation",
+    "email": "info@zel.cash"
   },
   "browser": {
     "request": "browser-request"
   },
   "bugs": {
-    "url": "https://github.com/bitcoinz-wallets/bitcore-lib-btcz/issues"
+    "url": "https://github.com/Lumiboy/bitcore-lib-zel/issues"
   },
   "contributors": [
     {
@@ -118,12 +118,12 @@
       "email": "patrick@bitpay.com"
     }
   ],
-  "name": "bitcore-lib-btcz",
+  "name": "bitcore-lib-zel",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitcoinz-wallets/bitcore-lib-btcz.git"
+    "url": "git+https://github.com/Lumiboy/bitcore-lib-zel.git"
   },
   "scripts": {
     "build": "gulp",
@@ -131,5 +131,5 @@
     "lint": "gulp lint",
     "test": "mocha"
   },
-  "version": "1.0.2"
+  "version": "1.0.4"
 }
