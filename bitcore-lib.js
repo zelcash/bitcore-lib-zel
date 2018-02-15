@@ -11122,7 +11122,7 @@ URI.isValid = function(arg, knownParams) {
 URI.parse = function(uri) {
   var info = URL.parse(uri, true);
 
-  if (info.protocol !== 'zel:') {
+  if (info.protocol !== 'ZEL:') {
     throw new TypeError('Invalid bitcoin URI');
   }
 
@@ -11217,7 +11217,7 @@ URI.prototype.toString = function() {
   _.extend(query, this.extras);
 
   return URL.format({
-    protocol: 'zel:',
+    protocol: 'ZEL:',
     host: this.address,
     query: query
   });
