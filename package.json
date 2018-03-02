@@ -8,7 +8,7 @@
     "request": "browser-request"
   },
   "bugs": {
-    "url": "https://github.com/Lumiboy/bitcore-lib-zel/issues"
+    "url": "https://github.com/zelcash/bitcore-lib-zel/issues"
   },
   "contributors": [
     {
@@ -123,7 +123,7 @@
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lumiboy/bitcore-lib-zel.git"
+    "url": "git+https://github.com/zelcash/bitcore-lib-zel.git"
   },
   "scripts": {
     "build": "gulp",
